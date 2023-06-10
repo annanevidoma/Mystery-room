@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a958d1357ac454d85f08310f758a53, type: 3}
+  m_Name: 2,3b,c a girl
+  m_EditorClassIdentifier: 
+  storyText: 'You hear someone''s footsteps. A girl entered the room. She says that
+    she also doesn''t know how did she end up here. The girl offers to hold together.
+
+    What
+    should I do?
+
+    1. Accept
+
+    2. Decline and run away through the next door'
+  nextStates:
+  - {fileID: 11400000, guid: d119d0e4178681c4abc63724f65a4f79, type: 2}
+  - {fileID: 11400000, guid: 7139020f8e9b9934ebb3449245d69dd9, type: 2}

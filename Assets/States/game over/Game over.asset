@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a958d1357ac454d85f08310f758a53, type: 3}
+  m_Name: Game over
+  m_EditorClassIdentifier: 
+  storyText: 'Game over
+
+    You couldn''t escape this scary place.
+
+    1. Play
+    again'
+  nextStates:
+  - {fileID: 11400000, guid: 84b8def1835056d41b86e9964d36eb2d, type: 2}

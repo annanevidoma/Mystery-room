@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a958d1357ac454d85f08310f758a53, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'I wake up in the dark room. I am terrified and shocked. I definitely
+    need to do something.
+
+    
+
+    What should I do?
+
+    
+
+    1. Look around
+    the room
+
+    
+
+    2. Start crying'
+  nextStates:
+  - {fileID: 11400000, guid: e9f34912d98fe094aac2861df11fbd96, type: 2}
+  - {fileID: 11400000, guid: 3881bc02dc099494b9b1c1f679dc2a49, type: 2}

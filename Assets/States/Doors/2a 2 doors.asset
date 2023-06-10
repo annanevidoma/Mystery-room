@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a958d1357ac454d85f08310f758a53, type: 3}
+  m_Name: 2a 2 doors
+  m_EditorClassIdentifier: 
+  storyText: 'There''s nothing in this room except 2 doors. One is blue and the other
+    is red.
+
+    
+
+    What should I do?
+
+    
+
+    1. Use the blue door
+
+
+    2.
+    Use the red door
+
+
+    3. Stay in this room'
+  nextStates:
+  - {fileID: 11400000, guid: 7139020f8e9b9934ebb3449245d69dd9, type: 2}
+  - {fileID: 11400000, guid: 010813366d73e394b9f050db62020e25, type: 2}
+  - {fileID: 11400000, guid: 3881bc02dc099494b9b1c1f679dc2a49, type: 2}

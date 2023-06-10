@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a958d1357ac454d85f08310f758a53, type: 3}
+  m_Name: 3a blue door
+  m_EditorClassIdentifier: 
+  storyText: 'There''s a guardian in this room. He says: "I''ll give a riddle to
+    you. If you don''t get it right from the first try, you''ll stay here forever.
+    "
+
+    What should I do?
+
+    1. Agree to solve the riddle
+
+    2. Try to
+    escape
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 1fb2f9669d5b6384eb04fecc5e308660, type: 2}
+  - {fileID: 11400000, guid: 8d5b2912c24a5784c8ac1aa5a9fe296c, type: 2}

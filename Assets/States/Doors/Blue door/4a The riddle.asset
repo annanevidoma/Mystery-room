@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a958d1357ac454d85f08310f758a53, type: 3}
+  m_Name: 4a The riddle
+  m_EditorClassIdentifier: 
+  storyText: "A young man is arrested while on vacation for a minor infraction. He
+    is put in a cell with a dirt floor and only one window. Although the window has
+    no bars, it is too high for him to reach. The only thing in the cell is a shovel.
+    He knows he won\u2019t get any food or water. He only has two days to escape
+    or he\u2019ll die. How will he escape from the cell?\r\n1. Dig a tunnel to the
+    outside\r\n2. Use the shovel to create a pile of dirt under the window "
+  nextStates:
+  - {fileID: 11400000, guid: 6a97788ab40aa5f42b9daef9d22e8022, type: 2}
+  - {fileID: 11400000, guid: 8ccca50ba48b142459a746fa6e74f9fe, type: 2}
